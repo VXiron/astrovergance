@@ -41,4 +41,8 @@ except AttributeError as a:
     print("your file has been created!")
     t.sleep(3)
     asfunc.tutorial()
+    print("we hope you enjoy the astroverge, and make sure, dont die, good night!")
+    t.sleep(3)
+    os.system('clear')
+    t.sleep(3)
     asfunc.gameplay()
