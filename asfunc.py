@@ -90,8 +90,19 @@ def gameplay(): # standard gameplay using a while loop to
     time.sleep(2)
     while True:
         print("Welcome to the terminal, Select any option to continue. \n")
+        print("enter the number correspinding to each option for ANY INPUT...")
 
         print("1. Planets")
         print("2. Rockets")
-        print("3. Inventory")
+        print("3. Storage")
+        print("4, Close Terminal")
         player_in = input(">>>")
+
+        if player_in == 1 or player_in == "planets":
+            print("Here are the current planets discovered")
+            print("Type launch to launch to a planet")
+            print(inas.Owned_planets)
+        if player_in == 2 or player_in == "rockets":
+            pass
+        if player_in == 3 or player_in == "inventory":
+            pass
